@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Laravel_crud"
         tools:targetApi="31">
         <activity
+            android:name=".teacherlog"
+            android:exported="false" />
+        <activity
+            android:name=".StudentLog"
+            android:exported="false" />
+        <activity
             android:name=".StudentActivity"
             android:exported="false" />
         <activity
