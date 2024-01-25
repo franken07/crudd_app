@@ -13,7 +13,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Student's Profile"
+        android:text="Teacher"
         android:textSize="24sp"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
@@ -54,16 +54,7 @@
         android:layout_width="match_parent"
         android:gravity="center"
         android:layout_height="wrap_content"
-        android:text="Course"
-        android:minHeight="48dp"
-        android:layout_margin="8dp"/>
-
-    <TextView
-        android:id="@+id/subject"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:text="Subject"
+        android:text="Department"
         android:minHeight="48dp"
         android:layout_margin="8dp"/>
 

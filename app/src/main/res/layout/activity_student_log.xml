@@ -36,7 +36,6 @@
         android:gravity="center"
         android:layout_height="wrap_content"
         android:hint="Enter your course"
-        android:inputType="number"
         android:minHeight="48dp"
         android:layout_margin="8dp"/>
 

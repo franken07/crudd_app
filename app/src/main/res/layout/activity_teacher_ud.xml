@@ -13,7 +13,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Student's Profile"
+        android:text="Teacher"
         android:textSize="24sp"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
@@ -21,49 +21,40 @@
 
     <!-- EditText fields for entering student information -->
 
-    <TextView
+    <EditText
         android:id="@+id/name1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:gravity="center"
-        android:text="Name"
+        android:hint="Enter Your name"
         android:minHeight="48dp" />
 
-    <TextView
+    <EditText
         android:id="@+id/age1"
         android:layout_width="match_parent"
         android:gravity="center"
         android:layout_height="wrap_content"
-        android:text="Age"
+        android:hint="Enter your age"
         android:inputType="number"
         android:minHeight="48dp"
         android:layout_margin="8dp"/>
 
-    <TextView
+    <EditText
         android:id="@+id/address1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Address"
+        android:hint="Enter Your address"
         android:minHeight="48dp"
         android:layout_margin="8dp"/>
 
-    <TextView
+    <EditText
         android:id="@+id/department1"
         android:layout_width="match_parent"
         android:gravity="center"
         android:layout_height="wrap_content"
-        android:text="Course"
-        android:minHeight="48dp"
-        android:layout_margin="8dp"/>
-
-    <TextView
-        android:id="@+id/subject"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:text="Subject"
+        android:hint="Enter Your department"
         android:minHeight="48dp"
         android:layout_margin="8dp"/>
 
@@ -72,16 +63,4 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Update" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Delete" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Log out" />
 </LinearLayout>
